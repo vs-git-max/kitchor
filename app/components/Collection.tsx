@@ -18,7 +18,7 @@ export default function Collection() {
               fill
             />
 
-            <div className="inset-0 absolute bg-primary/40 w-full h-full flex justify-between flex-col  pt-3 ">
+            <div className="inset-0 absolute bg-primary/20 w-full h-full flex justify-between flex-col  pt-3 ">
               <h4 className="font-semibold text-secondary text-lg px-4">
                 {kitchenLayout.title} <br />
                 collection

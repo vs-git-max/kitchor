@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Collection from "./components/Collection";
 import Hero from "./components/Hero";
+import WhyUs from "./components/WhyUs";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <About />
       </div>
       <Collection />
+      <WhyUs />
     </>
   );
 }

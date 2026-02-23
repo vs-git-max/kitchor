@@ -1,3 +1,6 @@
+import { FaShieldAlt, FaTools } from "react-icons/fa";
+import { FaDollarSign, FaHandshake } from "react-icons/fa6";
+
 export const navItems = [
   { label: "Home", link: "/" },
   { label: "Kitchens", link: "/kitchen" },
@@ -43,5 +46,32 @@ export const kitchenLayouts = [
       "A premium luxury kitchen layout defined by bold design and high-end finishes.",
     longDescription:
       "The Luxor Kitchen layout represents the pinnacle of luxury kitchen design, featuring statement islands, bespoke cabinetry, premium stone countertops, and advanced appliance integration.",
+  },
+];
+
+export const whyChooseUs = [
+  {
+    title: "Full Service",
+    icon: FaTools,
+    description:
+      "From design to installation and repair, we handle every aspect of your kitchen project, ensuring a seamless experience.",
+  },
+  {
+    title: "Deliver Value",
+    icon: FaDollarSign,
+    description:
+      "We provide top-quality workmanship and materials at competitive prices, maximizing your investment and satisfaction.",
+  },
+  {
+    title: "Partners",
+    icon: FaHandshake,
+    description:
+      "We collaborate closely with our clients and suppliers, building long-term relationships that result in exceptional kitchen solutions.",
+  },
+  {
+    title: "Integrity",
+    icon: FaShieldAlt,
+    description:
+      "Honesty, transparency, and accountability guide everything we do, so you can trust us to deliver exactly what we promise.",
   },
 ];
