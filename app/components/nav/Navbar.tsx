@@ -44,7 +44,7 @@ export default function Navbar() {
           <Cart />
           {/* mobile menu icon */}
           <div
-            className="border border-accent p-1 rounded-xl "
+            className="border border-accent p-1 rounded-xl md:hidden block"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? <FaTimes /> : <FaBars />}
