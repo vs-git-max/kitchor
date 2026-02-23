@@ -4,6 +4,7 @@ import Logo from "./Logo";
 import Link from "next/link";
 import { navItems } from "@/app/data/data";
 import { usePathname } from "next/navigation";
+import { useEffect, useRef } from "react";
 
 interface MobileMenuProps {
   onClose: () => void;
@@ -15,8 +16,33 @@ export default function MobileMenu({ onClose }: MobileMenuProps) {
     return pathname.includes(isPathname);
   };
 
+  //closing the menu incase any part of th screen is pressed that is not the menu
+
+  const divRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    function handleCloseMobileMenuIncaseClickOutside(e: MouseEvent) {
+      if (divRef.current && !divRef.current.contains(e.target as Node)) {
+        onClose();
+      }
+    }
+
+    document.addEventListener(
+      "mousedown",
+      handleCloseMobileMenuIncaseClickOutside,
+    );
+
+    return () =>
+      document.removeEventListener(
+        "mousedown",
+        handleCloseMobileMenuIncaseClickOutside,
+      );
+  }, []);
+
   return (
-    <div className="fixed inset-0 z-100 bg-primary  w-48  flex items-start   flex-col py-4 text-white border-r-2 border-r-accent">
+    <div
+      ref={divRef}
+      className="fixed inset-0 z-100 bg-primary  w-48  flex items-start   flex-col py-4 text-white border-r-2 border-r-accent"
+    >
       <div className="flex items-center justify-between w-full px-2 border-b border-b-accent">
         <Logo onClose={onClose} />
         <button
