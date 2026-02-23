@@ -2,9 +2,10 @@ import clsx from "clsx";
 
 interface ButtonProps {
   children: React.ReactNode;
-  onClick: () => void;
+  onClick?: () => void;
   type?: "primary" | "secondary";
   hero?: boolean;
+  className?: string;
 }
 
 export default function Button({
@@ -12,6 +13,8 @@ export default function Button({
   hero,
   onClick,
   type = "primary",
+  className,
+  ...props
 }: ButtonProps) {
   return (
     <button
@@ -22,9 +25,11 @@ export default function Button({
     py-2 px-4 rounded-full flex items-center gap-2 hover:opacity-80
     
     `,
+        className,
         type === "primary" && "bg-secondary text-primary ",
         type === "secondary" && "bg-accent text-primary",
         hero && "hover:rounded-full cursor-pointer",
+        props,
       )}
     >
       {children}
