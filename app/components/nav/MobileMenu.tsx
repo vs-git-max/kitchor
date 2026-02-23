@@ -36,7 +36,7 @@ export default function MobileMenu({ onClose }: MobileMenuProps) {
         "mousedown",
         handleCloseMobileMenuIncaseClickOutside,
       );
-  }, []);
+  }, [onClose]);
 
   return (
     <div
