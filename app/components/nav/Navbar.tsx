@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <Container>
-      <nav className="text-white w-full flex items-center justify-between mt-4 sticky top-0 left-0 right-0 z-50">
+      <nav className="text-white max-w-7xl mx-auto  px-4 rounded-2xl flex items-center justify-between mt-2 fixed bg-primary/20 backdrop-blur-3xl top-0 left-0 right-0 z-50 ">
         <Logo />
         <div className="md:flex gap-3 items-center hidden ">
           {navItems.map((navItem) => (
