@@ -18,8 +18,8 @@ export default function Button({
       onClick={onClick}
       className={clsx(
         `
-    font-semibold text-sm transition-all duration-500
-    py-2 px-4 rounded-full flex items-center gap-2 hover:opacity-95
+    font-bold text-sm transition-all duration-500
+    py-2 px-4 rounded-full flex items-center gap-2 hover:opacity-80
     
     `,
         type === "primary" && "bg-secondary text-primary ",

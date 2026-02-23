@@ -28,12 +28,13 @@ export default function Hero() {
     }, 20000);
 
     return () => clearInterval(interval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function handleVisitShowroom() {}
 
   return (
-    <header className="overflow-hidden w-full h-120 lg:h-160 relative px-1 py-1">
+    <header className="overflow-hidden w-full h-120 lg:h-160 relative px-1 py-1 z-0">
       <Image
         className={`  object-cover transition-opacity duration-500 `}
         alt="hero-image"
@@ -49,7 +50,7 @@ export default function Hero() {
         <p className="text-sm text-secondary font-medium">
           3D design and measurement
         </p>
-        <Button onClick={handleVisitShowroom}>
+        <Button hero onClick={handleVisitShowroom}>
           Visit showroom <FaArrowRight />
         </Button>
       </div>
