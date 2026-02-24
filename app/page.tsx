@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Collection from "./components/Collection";
 import Hero from "./components/Hero";
+import Promo from "./components/Promo";
 import WhyUs from "./components/WhyUs";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </div>
       <Collection />
       <WhyUs />
+      <Promo />
     </>
   );
 }
