@@ -41,7 +41,7 @@ export default function MobileMenu({ onClose }: MobileMenuProps) {
   return (
     <div
       ref={divRef}
-      className="fixed inset-0 z-100 bg-primary  w-48  flex items-start   flex-col py-4 text-white border-r-2 border-r-accent"
+      className="fixed inset-0 z-100 bg-primary  w-48 h-screen flex items-start   flex-col py-4 text-white border-r-2 border-r-accent"
     >
       <div className="flex items-center justify-between w-full px-2 border-b border-b-accent">
         <Logo onClose={onClose} />

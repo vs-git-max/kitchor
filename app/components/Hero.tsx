@@ -34,7 +34,7 @@ export default function Hero() {
   function handleVisitShowroom() {}
 
   return (
-    <header className="overflow-hidden w-full h-120 lg:h-160 relative px-1 py-1 z-0">
+    <header className="overflow-hidden w-full h-100 lg:h-140 relative px-1 py-1 z-0">
       <Image
         className={`  object-cover transition-opacity duration-500 `}
         alt="hero-image"

@@ -14,7 +14,7 @@ export const logoFontFamily = Goldman({
 });
 
 export const metadata: Metadata = {
-  title: "KITCHOR",
+  title: "Kitchor",
   description: "Building kitchen designs for users",
 };
 

@@ -9,7 +9,7 @@ export default function WhyUs() {
           <p className="text-sm underline font-semibold text-accent/80 ">
             Why choose us
           </p>
-          <h2 className="text-secondary font-semibold text-2xl md:text-3xl lg:text-4xl xl:text-5xl ">
+          <h2 className="text-secondary font-semibold text-xl md:text-2xl lg:text-3xl xl:text-4xl ">
             Extremely hight standard of <br /> customer satisfaction
           </h2>
         </div>

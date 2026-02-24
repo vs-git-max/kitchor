@@ -10,10 +10,10 @@ export default function About() {
           <span className="absolute top-0 left-0 w-6 h-10 border-t-4 border-l-4 border-accent/50" />
           <span className="absolute bottom-0 left-0 w-6 h-10 border-b-4 border-l-4 border-accent/50" />
           <span className="absolute bottom-0 right-0 w-6 h-10 border-b-4 border-r-4 border-accent/50" />
-          <p className="font-semibold text-3xl md:text-4xl lg:text-5xl text-accent">
+          <p className="font-semibold text-2xl md:text-3xl lg:text-4xl text-accent">
             25
           </p>
-          <p className="text-secondary/80 font-medium text-sm">
+          <p className="text-secondary/80 font-medium text-xs">
             Years <br /> experience <br />
             working
           </p>
@@ -23,12 +23,12 @@ export default function About() {
         <p className="text-sm font-semibold text-accent/80 tracking-wide">
           About us
         </p>
-        <p className="text-secondary font-medium text-2xl md:text-3xl lg:text-4xl">
+        <p className="text-secondary font-medium text-xl md:text-2xl lg:text-3xl">
           Creative solutions by professional designers
         </p>
       </div>
       <div className="flex gap-3 flex-col">
-        <p className="text-sm font-medium text-secondary/40">
+        <p className="text-xs font-medium text-secondary/40">
           We are a bespoke kitchen design company creating functional,
           beautifully crafted spaces tailored to your lifestyle. From concept to
           installation, we combine smart spatial planning, premium materials,
