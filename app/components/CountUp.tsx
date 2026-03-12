@@ -9,7 +9,7 @@ interface CountUpProps {
   duration?: number;
 }
 
-const CountUp = ({ end, duration = 5000 }: CountUpProps) => {
+const CountUp = ({ end, duration = 10000 }: CountUpProps) => {
   const [index, setIndex] = useState<number>(0);
   const ref = useRef<HTMLSpanElement>(null);
   const [hasStarted, setHasStarted] = useState<boolean>(false);
