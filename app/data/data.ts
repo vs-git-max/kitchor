@@ -210,3 +210,60 @@ export const kitchenDesigns = [
     popular: false,
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Sarah M.",
+    image: "/images/testimonials/sarah.jpg",
+    role: "Homeowner",
+    message:
+      "Our kitchen went from outdated to absolutely stunning. The team handled everything from design to installation so smoothly that the entire process felt effortless. We couldn't be happier with the result.",
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: "Daniel K.",
+    image: "/images/testimonials/daniel.jpg",
+    role: "Homeowner",
+    message:
+      "What impressed us most was the attention to detail. Every cabinet, finish, and fixture was carefully thought through. Our kitchen is now the favorite space in our home.",
+    rating: 5,
+  },
+  {
+    id: 3,
+    name: "Linda W.",
+    image: "/images/testimonials/linda.jpg",
+    role: "Homeowner",
+    message:
+      "The design team truly listened to what we wanted. They turned our ideas into a beautiful, functional kitchen that works perfectly for our family.",
+    rating: 5,
+  },
+  {
+    id: 4,
+    name: "Michael T.",
+    image: "/images/testimonials/michael.jpg",
+    role: "Homeowner",
+    message:
+      "The process was incredibly smooth from start to finish. Clear communication, great craftsmanship, and a final result that exceeded our expectations.",
+    rating: 5,
+  },
+  {
+    id: 5,
+    name: "Rebecca A.",
+    image: "/images/testimonials/rebecca.jpg",
+    role: "Homeowner",
+    message:
+      "I was worried renovating the kitchen would be stressful, but the team made it simple and enjoyable. The final design looks incredible and the quality is top-notch.",
+    rating: 5,
+  },
+  {
+    id: 6,
+    name: "James L.",
+    image: "/images/testimonials/james.jpg",
+    role: "Homeowner",
+    message:
+      "The transformation is unbelievable. Guests constantly compliment our kitchen, and we genuinely enjoy cooking and spending time there now.",
+    rating: 5,
+  },
+];
