@@ -52,7 +52,7 @@ const Clients = () => {
               key={item.id}
               className="flex flex-col items-start gap-3 bg-gray-500/10 p-5 max-w-xl mx-auto w-full h-64"
             >
-              <p className="text-8xl text-secondary -mb-5">&quot;</p>
+              <p className="text-8xl text-secondary -mb-12">&quot;</p>
               <p className="text-sm font-semibold text-secondary/80 tracking-wide">
                 {item.message}
               </p>
@@ -65,8 +65,8 @@ const Clients = () => {
                     className="object-cover "
                   />
                 </div>
-                <div className="flex flex-col gap-0.5">
-                  <h1 className="text-secondary font-medium text-sm">
+                <div className="flex flex-col gap-0">
+                  <h1 className="text-accent tracking-wide font-medium text-sm">
                     {item.name}
                   </h1>
                   <p className="text-secondary/60 font-medium tracking-wide text-xs">

@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Approach from "./components/Approach";
 import Clients from "./components/Clients";
 import Collection from "./components/Collection";
 import Hero from "./components/Hero";
@@ -20,6 +21,7 @@ export default function Home() {
       <Projects />
       <Journey />
       <Clients />
+      <Approach />
     </>
   );
 }
