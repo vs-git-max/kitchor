@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Collection from "./components/Collection";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects";
 import Promo from "./components/Promo";
 import WhyUs from "./components/WhyUs";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Collection />
       <WhyUs />
       <Promo />
+      <Projects />
     </>
   );
 }

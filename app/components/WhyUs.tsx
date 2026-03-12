@@ -15,7 +15,10 @@ export default function WhyUs() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {whyChooseUs.map((item) => (
-            <div key={item.title} className="flex flex-col gap-2 items-center">
+            <div
+              key={item.title}
+              className="flex flex-col gap-3 items-center hover:bg-gray-500/10 hover:border hover:border-accent/50 ease-in-out rounded-2xl hover:py-4 hover:px-3 transition-all duration-700 "
+            >
               <div className="flex items-center justify-center size-12 bg-secondary/20 rounded-full">
                 <item.icon size={22} className="text-secondary" />
               </div>
